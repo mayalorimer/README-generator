@@ -64,7 +64,7 @@ function init() {
     .then((data) => {
         const fileName = 'README.md'; 
         writeToFile(fileName, data); 
-    })
+    });
 }
 
 // Function call to initialize app
