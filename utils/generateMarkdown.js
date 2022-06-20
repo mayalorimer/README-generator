@@ -25,16 +25,16 @@ function renderLicenseLink(license) {
     return ''; 
   }
   else if (license === 'Apache 2.0'){
-    return '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+    return 'http://www.apache.org/licenses/LICENSE-2.0';
   }
   else if (license === "Eclipse Public License 1.0") {
-    return '[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0)';
+    return 'https://www.eclipse.org/legal/epl-v10.html';
   }
   else if (license === "MIT"){
-    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+    return '[https://www.mit.edu/~amini/LICENSE.md';
   }
   else{
-    return '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)';
+    return 'https://www.ibm.com/docs/en/linux-on-systems?topic=examples-common-public-license-v10';
   }
 }
 
@@ -47,6 +47,10 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ## Decription
   ${data.description}
+
+  ## Badge
+  ${renderLicenseBadge(data.license)}
+
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -62,7 +66,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${data.license}
+  ${renderLicenseLink(data.license)}
 
   ## Contributing
   ${data.contribute}
