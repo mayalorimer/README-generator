@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mayalorimer/README-generator/issues"
   },
-  "homepage": "https://github.com/mayalorimer/README-generator#readme"
+  "homepage": "https://github.com/mayalorimer/README-generator#readme",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  }
 }
