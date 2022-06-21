@@ -33,3 +33,8 @@
 
   - GitHub Profile: https://github.com/mayalorimer 
   - For any additional questions email me at maya.lorimer@yahoo.com
+
+## Links
+
+- Walkthrough video:
+- Github Repo: https://github.com/mayalorimer/README-generator 
