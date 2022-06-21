@@ -1,6 +1,6 @@
 # README-generator
   ## Decription
-  This command line application accepts user input to create a professional level README file
+  This project is intended to help you quickly create a professional README
 
   ## Badge
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -14,20 +14,20 @@
   - [Questions](#questions)
 
   ## Installation
-  Download the source code and run it in your local terminal
+  Download the code from github
 
   ## Usage
-  Run this program using node and the index.js
+  Run this command line program from the terminal using node
 
   ## License
   This project falls under the following license: MIT
   [https://www.mit.edu/~amini/LICENSE.md
 
   ## Contributing
-  n
+  
 
   ## Tests 
-  
+  Use jest in the json package
 
   ## Questions
 
