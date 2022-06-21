@@ -1,9 +1,9 @@
-# gehhl
+# README-generator
   ## Decription
-  dsf
+  This command line application accepts user input to create a professional level README file
 
   ## Badge
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Table of Contents
   - [Installation](#installation)
@@ -14,21 +14,22 @@
   - [Questions](#questions)
 
   ## Installation
-  d
+  Download the source code and run it in your local terminal
 
   ## Usage
-  d
+  Run this program using node and the index.js
 
   ## License
-  http://www.apache.org/licenses/LICENSE-2.0
+  This project falls under the following license: MIT
+  [https://www.mit.edu/~amini/LICENSE.md
 
   ## Contributing
-  sgf
+  n
 
   ## Tests 
-  sa
+  
 
   ## Questions
 
-  - GitHub Profile: https://github.com/fd 
-  - For any additional questions email me at fd
+  - GitHub Profile: https://github.com/mayalorimer 
+  - For any additional questions email me at maya.lorimer@yahoo.com

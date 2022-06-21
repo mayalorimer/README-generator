@@ -66,6 +66,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
+  This project falls under the following license: ${data.license}
   ${renderLicenseLink(data.license)}
 
   ## Contributing
